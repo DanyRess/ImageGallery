@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>Galeria de Imagens</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        
+        $(function() {
+            $('ul *').on('click', function() {
+                if ($(this).index() == 0){
+                    $('.imagens').animate({
+                        marginLeft: '0'
+                    })
+                }
+                if ($(this).index() == 1){
+                    $('.imagens').animate({
+                        marginLeft: '-100%'
+                    })
+                }
+                if ($(this).index() == 2){
+                    $('.imagens').animate({
+                        marginLeft: '-200%'
+                    })
+                }
+                if ($(this).index() == 3){
+                    $('.imagens').animate({
+                        marginLeft: '-300%'
+                    })
+                }
+                if ($(this).index() == 4){
+                    $('.imagens').animate({
+                        marginLeft: '-400%'
+                    })
+                }
+                
+                
+                
+            });
+        })
+    </script>
+</head>
+<body>
+    <header>
+       <h1>Image Gallery</h1>
+        <nav>
+            <ul class="navigation">
+                <li class="links"><a href="#home">Home</a></li>
+                <li class="links"><a href="#about">About</a></li>
+                <li class="links"><a href="#contact">Contact</a></li>
+                <li class="links"><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+       
+       
+       <main>
+        <div class="imagens">
+            <section>
+                <img src="img/img1.jpg" alt="Cris&acirc;ntemo" />
+            </section>
+            <section>
+                <img src="img/img2.jpg" alt="Hort&ecirc;ncia" />
+            </section>
+            <section>
+                <img src="img/img3.jpg" alt="Farol" />
+            </section>
+            <section>
+                <img src="img/img4.jpg" alt="Pinguins" />
+            </section>
+            <section>
+                <img src="img/img5.jpg" alt="Tulipas" />
+            </section>
+        </div>
+               <div class="bullets">
+                <ul id="slide">
+                    <li class="presentation"></li>
+                    <li class="presentation"></li>
+                    <li class="presentation"></li>
+                    <li class="presentation"></li>
+                    <li class="presentation"></li>
+                </ul>
+            </div>
+    </main>
+</body>
+</html>

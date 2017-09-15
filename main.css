@@ -1,0 +1,104 @@
+body {
+    margin: 0 auto;
+}
+
+
+main {
+    width: 60%;
+    margin: 2% auto;
+    -webkit-box-shadow: 0 0 10px #404040;
+    box-shadow: 0 0 20px #9FA8DA;
+    overflow: hidden;
+    
+}
+
+.imagens {
+    width: 500%;
+    position: relative;
+}
+
+section {
+    width: 20%;
+    float: left;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.bullets {
+    position: relative;
+    clear: both;
+}
+
+ul#slide {
+    width: 25%;
+    margin: auto;
+    
+}
+
+li.presentation {
+    list-style: none;
+    padding: 8% 5%;
+    margin: 2%;
+    width: 6%;
+    border-radius: 50%;
+    background-color: #9FA8DA;
+    float: left;
+    cursor: pointer;
+    
+}
+
+
+/*MINHAS EDIÇÕES PESSOAIS HAAAAI*/
+
+
+ul.navigation {
+    list-style-type: none;
+    
+}
+
+li.links {
+    display: inline-block;
+    padding: 1%;
+    margin: 1%;
+}
+
+li.links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+}
+
+nav {
+    position: absolute;
+    top: 10%;
+    right: 6%;
+    width: 40%;
+    height: ;
+}
+
+header {
+    position: relative;
+    margin: 0;
+    padding: 2%;
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+}
+ 
+/*LINKSSSSS*/
+
+li.links a:hover {
+    color: #000;
+}

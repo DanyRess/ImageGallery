@@ -1,0 +1,15 @@
+1 - Indentação é basicamente dar um tab (equivalente a 2 espaços - as vezes 4) para facilitar a leitura do próprio designer ou para consultas do usuário ao código fonte. Ele facilita também a visualização de Nesting Elements, verificando a hierarquia entre eles (divpai>divfilho+divfilho2).
+
+2-  Header: Contém o cabeçalho do site; existem várias formas de dispor o header, mas é comulmente posicionado no começo do body. Não possui nenhuma característica de estilo, sua função é semântica.
+    Nav: Uma tag que serve para Semanticamente indicar uma lista de navegação do site, aonde vão os links PRINCIPAIS, direcionando para Páginas/IDs do mesmo site.
+    Article: Serve para delimitar um artigo, é subordinado a uma div, mas tem importância semântica. por exemplo em um blog com muitos Artigos, cada um com seu próprio cabeçalho, títulos e subtítulos. cada article permite que se recomece a contagem de Headings (h1-h6). 
+    Aside: Semanticamente indica uma div contendo elementos de colunas laterais, comumente utilizado para links de matérias (que não são os links de navegação principal), links de IDs (seções do site), notícias, lista de artigos com links, barra de busca etc.
+    Footer: O último elemento do site, normalmente utilizado para conter informações a respeito do autor da página, outra barra de navegação, redes sociais, informações para contato etc.
+    
+    3-  Cada imagem ocupa 100% de largura(para que não haja distorçõs em seu tamanho real), logo a div precisava conter 5 imagens Hidden dentro dela, entao precisa ter a largura total resultante das 5 imagens. Essa largura é 500% pois as 5 imagens têm o mesmo tamanho.
+    
+    4-  Apesar de Uls e Lis existirem com o propósito de criar itens ordenados/não ordenados nós as utilizamos no intuito de indicar ao navegador uma relação semântica entre os itens, e a tag Ul+Li é a que mais se adequa a esse propósito.
+    
+    5-  JQuery é uma biblioteca de JavaScript, basicamente simplificando os códigos utilizados para criação de variáveis, funções, arrays etc. Isso economiza tempo e evita que os programadores tenham de buscar constantemente códigos extensos em todo o documento. Funciona como um "Snippet", você "chama" o código para substituição.
+    
+    6-  Eu não entendo nada de jQuery ainda, mas sei que houve a criação de funções e de conditionals para que essas funções aconteçam, mas desconheço as variáveis do jQuery, então o que eu faria diferente é escrever o JS na mão mesmo rsrsrs.
